@@ -1,0 +1,39 @@
+# ===== ENV & SECRETS =====
+.env
+.env.*
+!.env.example
+
+# ===== NODE =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== BUILD =====
+dist/
+build/
+
+# ===== RUNTIME =====
+logs/
+*.log
+
+# ===== OS FILES =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE / EDITOR =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== CACHE =====
+.cache/
+.tmp/
+
+# ===== TEST =====
+coverage/
+
+# ===== MONGODB LOCAL =====
+data/
